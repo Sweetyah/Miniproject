@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: antiquewhite;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-zd9cEofPuazcNwjQG-RtDscwXaUzawpHaQ&usqp=CAU);
 }
 
 .content {
@@ -19,7 +19,7 @@
 }
 
 .gridContainer>div {
-    background-color:pink;
+    
     text-align: left;
     padding: 10px 0;
     font-size: 1.2rem;
@@ -37,15 +37,15 @@
     color: aliceblue;
 }
 .btulogin {
-    background-color:blue;
+    background-color:rgb(233, 168, 217);
     color: aliceblue;
 }
 .bturegister {
     background-color:green;
-    color: aliceblue;
+    color: rgb(97, 48, 153);
 }
 .text{
-    color: blue;
+    color: rgb(204, 110, 168);
 }
 .btn{
     background-color: green;

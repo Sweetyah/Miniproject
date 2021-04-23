@@ -6,16 +6,18 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: antiquewhite;
+    background-size: cover;
+    background-image: url(pic2.jpg) 
+
 }
 
 .title {
     font-size: 3rem;
     margin-bottom: 30px;
     padding-top: 60px;
-    padding-bottom: 40px;
+    padding-bottom: 400px;
     font-weight: bold;
-    color: green;
+    color: rgb(224, 121, 181);
 }
 
 .list {
@@ -60,7 +62,7 @@
 }
 .btn:hover{
     background-color: brown;
-    color: #fff;
+    color: rgb(128, 83, 185);
     font-size: 1rem;
     margin-top: 10px;
     border: 2px solid brown;
