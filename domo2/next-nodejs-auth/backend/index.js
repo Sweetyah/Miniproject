@@ -108,8 +108,8 @@ router.get("/", (req, res, next) => {
 
   let students = {
       list: [
-        { "id": 1, "name": "Sawee","surname": "Raksawat","major": "COE" ,"GPA": 2.89 },
-        { "id": 2, "name": "Benjamas","surname": "Kaewsiri","major":  2.15 }]
+        { "id": 1, "name": "Siriluck","surname": "Raksawat","major": "COE" ,"GPA": 2.89 },
+        { "id": 2, "name": "Benjamas","surname": "Kaewsiri","major": "COE" ,"GPA": 2.15 }]
     }
   
   
