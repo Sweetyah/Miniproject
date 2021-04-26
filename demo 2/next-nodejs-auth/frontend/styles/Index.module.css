@@ -6,23 +6,22 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-size: cover;
-    background-image: url(pic2.jpg) 
-
+    background-size:cover;
+   background-image: url(pic7.jpg);
 }
 
 .title {
     font-size: 3rem;
     margin-bottom: 30px;
     padding-top: 60px;
-    padding-bottom: 400px;
+    padding-bottom: 40px;
     font-weight: bold;
-    color: rgb(224, 121, 181);
+    color: rgb(228, 166, 202);
 }
 
 .list {
     display: flex;
-    margin: 10px;
+    margin: 50px;
 }
 
 .listItem {
@@ -32,7 +31,7 @@
     width:auto;
     align-items: center;
     margin: 10px;
-    border: 4px solid blueviolet;
+    border: 4px solid rgb(155, 50, 123);
     padding: 2rem;
     border-radius: 5px;
 }
@@ -43,7 +42,7 @@
   background-color: red;
   border-radius: 10%;
   border: none;
-  color: white;
+  color: rgb(255, 255, 255);
   padding: 10px 10px;
   text-align: center;
   text-decoration: none;
@@ -62,7 +61,7 @@
 }
 .btn:hover{
     background-color: brown;
-    color: rgb(128, 83, 185);
+    color: #fff;
     font-size: 1rem;
     margin-top: 10px;
     border: 2px solid brown;
