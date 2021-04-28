@@ -5,14 +5,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(201, 190, 42);
-    background-image: url(pic8.jpg);
-    background-size: contain;
-   
+    background-color: rgb(61, 184, 77);
 }
 
 .content {
-    min-width: 25vw;
+    min-width: 10vw;
 }
 
 .gridContainer {
@@ -22,7 +19,7 @@
 }
 
 .gridContainer>div {
-   
+    background-color:pink;
     text-align: left;
     padding: 10px 0;
     font-size: 1.2rem;
@@ -40,18 +37,18 @@
     color: aliceblue;
 }
 .btulogin {
-    background-color:rgb(212, 68, 181);
+    background-color:blue;
     color: aliceblue;
 }
 .bturegister {
-    background-color:rgb(152, 205, 207);
-    color: rgb(240, 251, 255);
+    background-color:rgb(163, 23, 128);
+    color: aliceblue;
 }
 .text{
     color: blue;
 }
 .btn{
-    background-color: rgb(163, 216, 219);
+    background-color: green;
     border-radius: 10%;
     border: none;
     color: white;
@@ -65,7 +62,7 @@
   }
   
   .btn {
-      background-color: rgb(147, 185, 190);
+      background-color: green;
       color: whitesmoke;
       font-size: 1rem;
       margin-top: 10px;
@@ -79,7 +76,7 @@
       border: 2px solid rgb(15, 177, 15);
   }
   .btn1{
-    background-color: rgb(175, 194, 109);
+    background-color: brown;
     border-radius: 10%;
     border: none;
     color: white;
@@ -93,11 +90,11 @@
   }
   
   .btn1 {
-      background-color: rgb(190, 184, 97);
+      background-color: brown;
       color: whitesmoke;
       font-size: 1rem;
       margin-top: 10px;
-      border: 2px solid rgb(211, 218, 123);
+      border: 2px solid brown;
   }
   .btn1:hover{
       background-color: red;

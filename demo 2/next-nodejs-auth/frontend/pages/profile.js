@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Layout from '../components/layout'
 import Navbar from '../components/navbar'
 import { useEffect, useState } from 'react'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Profile.module.css'
 import axios from 'axios'
 import withAuth from '../components/withAuth'
 import config from '../config/config'
@@ -33,11 +33,11 @@ const Profile1 = ({ token }) => {
     return (
         <Layout>
             <Head>
-                <title>User profile</title>
+                <title>My Profile</title>
             </Head>
             <div className={styles.container}>
                 <Navbar />
-                <h1>User profile</h1>
+                <h1>My Profile</h1>
                 <div>
                     <b>Token:</b> {token.substring(0, 15)}... <br /><br />
                     This route is protected by token, user is required to login first.
