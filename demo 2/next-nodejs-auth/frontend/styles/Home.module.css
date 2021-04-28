@@ -5,7 +5,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(125, 159, 209);
+    background-color: rgb(201, 190, 42);
+    background-image: url(pic8.jpg);
+    background-size: contain;
+   
 }
 
 .content {
@@ -19,9 +22,9 @@
 }
 
 .gridContainer>div {
-    background-color:pink;
+   
     text-align: left;
-    padding: 30px 0;
+    padding: 10px 0;
     font-size: 1.2rem;
 }
 
@@ -37,18 +40,18 @@
     color: aliceblue;
 }
 .btulogin {
-    background-color:blue;
+    background-color:rgb(212, 68, 181);
     color: aliceblue;
 }
 .bturegister {
-    background-color:green;
-    color: aliceblue;
+    background-color:rgb(152, 205, 207);
+    color: rgb(240, 251, 255);
 }
 .text{
     color: blue;
 }
 .btn{
-    background-color: green;
+    background-color: rgb(163, 216, 219);
     border-radius: 10%;
     border: none;
     color: white;
@@ -62,7 +65,7 @@
   }
   
   .btn {
-      background-color: green;
+      background-color: rgb(147, 185, 190);
       color: whitesmoke;
       font-size: 1rem;
       margin-top: 10px;
@@ -76,7 +79,7 @@
       border: 2px solid rgb(15, 177, 15);
   }
   .btn1{
-    background-color: brown;
+    background-color: rgb(175, 194, 109);
     border-radius: 10%;
     border: none;
     color: white;
@@ -90,11 +93,11 @@
   }
   
   .btn1 {
-      background-color: brown;
+      background-color: rgb(190, 184, 97);
       color: whitesmoke;
       font-size: 1rem;
       margin-top: 10px;
-      border: 2px solid brown;
+      border: 2px solid rgb(211, 218, 123);
   }
   .btn1:hover{
       background-color: red;
