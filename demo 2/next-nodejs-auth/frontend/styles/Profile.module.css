@@ -1,13 +1,11 @@
 .container {
-    width: 100%;
-    height: 100vh;
-     padding: 0 0.5rem;
-    margin: 0 auto;
+    min-height: 100vh;
+    padding: 0 0.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(pic2.jpg);
-    background-size: contain;
+    background-color: antiquewhite;
+    background-image: url(pic8.jpg);
+    background-size: cover;
 }
-

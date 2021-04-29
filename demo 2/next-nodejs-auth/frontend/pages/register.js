@@ -49,6 +49,15 @@ export default function Register({ token }) {
                 />
             </div>
             <div>
+                <b>Password:</b>
+            </div>
+            <div>
+                <input type="password"
+                    name="password"
+                    placeholder="password"
+                    onChange={(e) => setPassword(e.target.value)} />
+            </div>
+            <div>
                 <b>Email:</b>
             </div>
             <div>
@@ -58,14 +67,16 @@ export default function Register({ token }) {
                     onChange={(e) => setEmail(e.target.value)} />
             </div>
             <div>
-                <b>Password:</b>
+                <b>confirm password:</b>
             </div>
             <div>
-                <input type="password"
-                    name="password"
-                    placeholder="password"
-                    onChange={(e) => setPassword(e.target.value)} />
+                <input type="confirm password"
+                    name="confirm password"
+                    placeholder="confirm password"
+                    onChange={(e) => setConfirmpassword(e.target.value)} />
             </div>
+           
+           
 
         </div>
     )
@@ -79,13 +90,7 @@ export default function Register({ token }) {
             <div className={styles.container}>
                 <Navbar />
                 <h1>Register</h1>
-                <div><b>Token:</b> {token.substring(0, 15)}...
-                <button
-                className={styles.btn1}
-                        onClick={() => { navigator.clipboard.writeText(token) }}>
-                        Copy token
-                </button>
-                </div>
+               
                 <br />
             <b>Status: </b> <i>{status}</i>
                 <br /><br />
@@ -93,6 +98,14 @@ export default function Register({ token }) {
                     {registerForm()}
                 </div>
 
+
+                <div><b>Token:</b> {token.substring(0, 15)}...
+                <button
+                className={styles.btn1}
+                        onClick={() => { navigator.clipboard.writeText(token) }}>
+                        Copy token
+                </button>
+                </div>
                 <div>
                     <button className={styles.btn}
                     onClick={register}>Register</button>

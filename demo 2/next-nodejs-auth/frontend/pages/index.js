@@ -19,35 +19,22 @@ const index = () => {
     mutate(URL, data);
   }
 
-  const showStudents = () => {
-    if (data.list && data.list.length) {
-      return data.list.map((item, index) => {
-        return (
-          <div className={styles.listItem} key={index}>
-           
-            
-           <div>
-            <button
-              className={styles.btn}
-              onClick={() => selStu(item.id)}
-            >
-              Select
-            </button></div>
-          </div>
-        );
-      });
-    } else {
-      return <p>Loading...</p>;
-    }
-  };
+  
   return (
     <Layout>
        <Head>
         <title>My Portfolio</title>
     </Head>
+
+
+    
     <div className={styles.container}><Navbar />
+
+
       <div className={styles.title}>
-      <marquee bgcolor="#A9E0B8" direction="lefe" scrollamount="10" width="100%"><ins>My Portfolio</ins></marquee></div>
+      <marquee bgcolor="#A9E0B8" direction="right" scrollamount="5" width="100%"><ins>My Portfolio</ins></marquee></div>
+      
+      
       
     </div>
     </Layout>

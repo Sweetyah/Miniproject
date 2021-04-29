@@ -6,7 +6,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(pic7.jpg);
+    background-color: antiquewhite;
+    background-image: url(pic\ 10.jpg);
     background-size: cover;
 }
 
@@ -16,7 +17,7 @@
     padding-top: 60px;
     padding-bottom: 40px;
     font-weight: bold;
-    color: rgb(219, 166, 219);
+    color: rgb(229, 149, 216);;
 }
 
 .list {

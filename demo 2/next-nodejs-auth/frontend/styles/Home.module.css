@@ -5,11 +5,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(61, 184, 77);
+    background-color: antiquewhite;
+    background-image: url(bg\ register.jpg);
+    background-size: cover;
 }
 
 .content {
-    min-width: 10vw;
+    min-width: 25vw;
 }
 
 .gridContainer {
@@ -19,7 +21,7 @@
 }
 
 .gridContainer>div {
-    background-color:pink;
+   
     text-align: left;
     padding: 10px 0;
     font-size: 1.2rem;
@@ -33,7 +35,7 @@
     font-size: 1.2rem;
 }
 .btucopy {
-    background-color: brown;
+    background-color: rgb(204, 228, 150);
     color: aliceblue;
 }
 .btulogin {
@@ -41,14 +43,14 @@
     color: aliceblue;
 }
 .bturegister {
-    background-color:rgb(163, 23, 128);
-    color: aliceblue;
+    background-color:rgb(211, 160, 198);
+    color: rgb(148, 192, 221);
 }
 .text{
     color: blue;
 }
 .btn{
-    background-color: green;
+    background-color: rgb(226, 160, 204);
     border-radius: 10%;
     border: none;
     color: white;
@@ -62,11 +64,11 @@
   }
   
   .btn {
-      background-color: green;
+      background-color: rgb(216, 143, 204);
       color: whitesmoke;
       font-size: 1rem;
       margin-top: 10px;
-      border: 2px solid green;
+      border: 2px solid rgb(231, 205, 223);
   }
   .btn:hover{
       background-color: rgb(15, 177, 15);
@@ -76,7 +78,7 @@
       border: 2px solid rgb(15, 177, 15);
   }
   .btn1{
-    background-color: brown;
+    background-color: rgb(219, 226, 150);
     border-radius: 10%;
     border: none;
     color: white;
@@ -90,11 +92,11 @@
   }
   
   .btn1 {
-      background-color: brown;
+      background-color: rgb(194, 218, 131);
       color: whitesmoke;
       font-size: 1rem;
       margin-top: 10px;
-      border: 2px solid brown;
+      border: 2px solid rgb(201, 214, 154);
   }
   .btn1:hover{
       background-color: red;
