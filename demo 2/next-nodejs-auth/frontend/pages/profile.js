@@ -2,12 +2,12 @@ import Head from 'next/head'
 import Layout from '../components/layout'
 import Navbar from '../components/navbar'
 import { useEffect, useState } from 'react'
-import styles from '../styles/profile.module.css'
+import styles from '../styles/Profile.module.css'
 import axios from 'axios'
 import withAuth from '../components/withAuth'
 import config from '../config/config'
 
-const Profile1 = ({ token }) => {
+const Profile1 = () => {
 
     const [user, setUser] = useState({})
 
@@ -33,25 +33,33 @@ const Profile1 = ({ token }) => {
     return (
         <Layout>
             <Head>
-                <title>User profile</title>
+                <title>My Profile</title>
             </Head>
             <div className={styles.container}>
                 <Navbar />
-                <h1>User profile</h1>
+                <h1>My profile</h1>
                 <div>
-                    <b>Token:</b> {token.substring(0, 15)}... <br /><br />
-                    This route is protected by token, user is required to login first.
+                    
+                   ..... I am Saviiyah Wohyoh
                     <br/>
-                    Otherwise, it will be redirect to Login page
-                    <br/><br/>
-                    {JSON.stringify(user)}
+                    Student ID :5835512081
+                    <br/>
+                    
+                    Computer Engineering
+                    <br/>
+                    
+     prince of songkla university phuket campus.....
+                   <br/>
+
+
+                    <br/>
                 </div>
             </div>
         </Layout>
     )
 }
 
-export default withAuth(Profile1)
+export default Profile1
 
 export function getServerSideProps({ req, res }) {
     return { props: { token: req.cookies.token || "" } };

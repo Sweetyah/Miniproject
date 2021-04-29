@@ -66,17 +66,7 @@ export default function Register({ token }) {
                     placeholder="email"
                     onChange={(e) => setEmail(e.target.value)} />
             </div>
-            <div>
-                <b>confirm password:</b>
-            </div>
-            <div>
-                <input type="confirm password"
-                    name="confirm password"
-                    placeholder="confirm password"
-                    onChange={(e) => setConfirmpassword(e.target.value)} />
-            </div>
-           
-           
+            
 
         </div>
     )
@@ -89,6 +79,9 @@ export default function Register({ token }) {
             </Head>
             <div className={styles.container}>
                 <Navbar />
+
+
+                
                 <h1>Register</h1>
                
                 <br />
@@ -110,6 +103,7 @@ export default function Register({ token }) {
                     <button className={styles.btn}
                     onClick={register}>Register</button>
                 </div>
+                
             </div>
         </Layout>
     )

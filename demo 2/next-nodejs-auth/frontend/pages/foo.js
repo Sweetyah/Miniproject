@@ -7,7 +7,7 @@ import axios from 'axios'
 import withAuth from '../components/withAuth'
 import config from '../config/config'
 
-const Foo1 = ({ token }) => {
+const Foo1 = () => {
 
     const [user, setUser] = useState({})
 
@@ -39,19 +39,17 @@ const Foo1 = ({ token }) => {
                 <Navbar />
                 <h1>User foo</h1>
                 <div>
-                    <b>Token:</b> {token.substring(0, 15)}... <br /><br />
                     This route is protected by token, user is required to login first.
                     <br/>
                     Otherwise, it will be redirect to Login page
                     <br/><br/>
-                    {JSON.stringify(user)}
                 </div>
             </div>
         </Layout>
     )
 }
 
-export default withAuth(Foo1)
+export default Foo1
 
 export function getServerSideProps({ req, res }) {
     return { props: { token: req.cookies.token || "" } };

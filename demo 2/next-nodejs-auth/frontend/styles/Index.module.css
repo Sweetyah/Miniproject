@@ -6,9 +6,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: antiquewhite;
-    background-image: url(pic\ 10.jpg);
-    background-size: cover;
+   
+    background-image: url(pic7.jpg);
+    background-size: contain;
+   
 }
 
 .title {
@@ -17,7 +18,7 @@
     padding-top: 60px;
     padding-bottom: 40px;
     font-weight: bold;
-    color: rgb(229, 149, 216);;
+    color: green;
 }
 
 .list {
