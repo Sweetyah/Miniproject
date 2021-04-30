@@ -72,10 +72,10 @@ const admin = ({ token }) => {
       return students.map((item, index) => {
         return (
           <div className={styles.listItem} key={index}>
-            <b>Name:</b> {item.name} <br />
-            <b>Surname:</b> {item.surname} <br />
-            <b>Major:</b> {item.major} <br />
-            <b>GPA:</b> {item.GPA}
+            <b>DATE:</b> {item.name} <br />
+            <b>ACTIVITY:</b> {item.surname} <br />
+            <b>PLACE:</b> {item.major} <br />
+            <b>DATELINE:</b> {item.GPA}
             <div className={styles.edit_button}>
               <button
                 className={styles.button_get}
@@ -106,28 +106,28 @@ const admin = ({ token }) => {
   return (
     <div className={styles.container}>
       <Navbar />
-      <h1><ins>Student Data Edit </ins></h1>
+      <h1><ins> My Memoris </ins></h1>
       <div className={styles.form_add}>
-        <h2>Add Students</h2>
-        Name:
+        <h2>Add Memories</h2>
+        DATE:
         <input
           type="text"
           name="name"
           onChange={(e) => setName(e.target.value)}
         ></input>
-        Surname:
+        ACTIVITY:
         <input
           type="text"
           name="surname"
           onChange={(e) => setSurname(e.target.value)}
         ></input>
-        Major:
+        PLACE:
         <input
           type="text"
           name="major"
           onChange={(e) => setMajor(e.target.value)}
         ></input>
-        GPA:
+        DATELINE:
         <input
           type="number"
           name="GPA"
@@ -142,7 +142,7 @@ const admin = ({ token }) => {
       </div>
 
       <div className={styles.list}>{showStudents()}</div>
-      <div className={styles.list1}><b><i><ins>(selected student)</ins></i></b> <b>  Name:</b>{student.name}<b>  Surname:</b>{student.surname} <b>  Major:</b>{student.major}  <b>GPA:</b>{student.GPA}</div>
+      <div className={styles.list1}><b><i><ins>(selected Memories)</ins></i></b> <b>  Date:</b>{student.date}<b>  Activity:</b>{student.activity} <b>  Place:</b>{student.place}  <b>DATELINE:</b>{student.DATELINE}</div>
     </div>
   );
 };

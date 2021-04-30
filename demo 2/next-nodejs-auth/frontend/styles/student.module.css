@@ -1,5 +1,5 @@
 .button_get {
-  background-color: green;
+  background-color: rgb(201, 228, 171);
   border-radius: 10%;
   border: none;
   color: white;
@@ -38,7 +38,7 @@
   cursor: pointer;
 }
 .button_add {
-  background-color: blue;
+  background-color: rgb(218, 149, 203);
   border: none;
   color: white;
   padding: 5px 5px;
@@ -75,15 +75,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 10px solid blue;
-  background-color: antiquewhite;
+  border: 10px solid rgb(236, 174, 221);
+  background-color: rgb(240, 200, 231);
 }
 .listItem {
   display: flex;
   flex-direction: column;
   margin: 20px;
   padding: 10px;
-  border: 2px solid green;
+  border: 2px solid rgb(90, 146, 199);
   font-size: 1.4rem;
   text-align: center;
 }
@@ -92,7 +92,7 @@
   flex-direction: column;
   margin: 20px;
   padding: 20px;
-  border: 2px solid green;
+  border: 2px solid rgb(219, 134, 215);
   font-size: 1.4rem;
   text-align: center;
 }

@@ -19,6 +19,30 @@ const index = () => {
     mutate(URL, data);
   }
 
+  const showStudents = () => {
+    if (data.list && data.list.length) {
+      return data.list.map((item, index) => {
+        return (
+          <div className={styles.listItem} key={index}>
+            <div><b>Date:</b> {item.name}</div>
+            <div><b>Activity:</b> {item.surname}</div>
+             <div> <b>Place:</b> {item.major} </div>
+            <div><b>DATELINE:</b> {item.GPA}</div>
+            
+            <div>
+            <button
+              className={styles.btn}
+              onClick={() => selStu(item.id)}
+            >
+              Select
+            </button></div>
+          </div>
+        );
+      });
+    } else {
+      return <p>Loading...</p>;
+    }
+  };
   
   return (
     <Layout>
@@ -29,6 +53,23 @@ const index = () => {
       <div className={styles.title}>
       <marquee bgcolor="#A9E0B8" direction="right" scrollamount="10" width="100%"><ins>My Portfolio</ins></marquee></div>
       
+      <div className={styles.list}>
+      ..... I am Saviiyah Wohyoh
+                    <br/>
+                    Student ID :5835512081
+                    <br/>
+                    
+                    Computer Engineering
+                    <br/>
+                    
+     prince of songkla university phuket campus.....
+                   <br/>
+
+
+                    <br/>
+         
+        {showStudents()}
+      </div>
       
     </div>
     </Layout>

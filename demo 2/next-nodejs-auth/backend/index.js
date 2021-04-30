@@ -1,3 +1,4 @@
+
 const express = require("express"),
   app = express(),
   passport = require("passport"),
@@ -108,8 +109,8 @@ router.get("/", (req, res, next) => {
 
   let students = {
       list: [
-        { "id": 1, "name": "Siriluck","surname": "Raksawat","major": "COE" ,"GPA": 2.89 },
-        { "id": 2, "name": "Benjamas","surname": "Kaewsiri","major": "COE" ,"GPA": 2.15 }]
+        { "id": 1, "name": "SAVIIYAH","surname": "Wohyoh","major": "COE" ,"GPA": 2.00 },
+        { "id": 2, "name": "SURAIYA","surname": "WOHYOH","major": "LEW" ,"GPA": 2.15 }]
     }
   
   

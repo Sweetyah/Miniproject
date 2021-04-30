@@ -37,23 +37,55 @@ const Profile1 = () => {
             </Head>
             <div className={styles.container}>
                 <Navbar />
-                <h1>My profile</h1>
+                <h1>Favorite activity</h1>
                 <div>
                     
-                   ..... I am Saviiyah Wohyoh
+                   ..... Watch a movie...
                     <br/>
-                    Student ID :5835512081
-                    <br/>
-                    
-                    Computer Engineering
-                    <br/>
-                    
-     prince of songkla university phuket campus.....
-                   <br/>
-
+                   
+                   
+                   <ul>
+                       
+                <li><b><a href="https://www.viu.com/ott/th/th/vod/61950/While-You-Were-Sleeping">While-You-Were-Sleeping</a></b></li>
+                <li><b><a href="https://www.viu.com/ott/th/th/vod/40023/Dr-Romantic">Dr-Romantic</a></b></li>
+                <li><b><a href="https://wetv.vip/th/play/l0035pd2kq4?vid=l0035pd2kq4">My Little Happiness</a></b></li>
+            </ul>
 
                     <br/>
                 </div>
+
+
+                <div>
+                    
+                   ..... Sport...
+                    <br/>
+                   
+                   
+                   <ul>
+                       
+                <li><b><a href="https://www.youtube.com/watch?v=LbKvi2UZKFM">Volleyball</a></b></li>
+                <li><b><a href="https://www.youtube.com/watch?v=6zgL0JYQr9A">Badminton</a></b></li>
+                <li><b><a href="https://www.youtube.com/watch?v=6zgL0JYQr9A">Football</a></b></li>
+            </ul>
+
+                    <br/>
+                </div>
+
+                <div>
+                    
+                    ..... Social...
+                     <br/>
+                    
+                    
+                    <ul>
+                        
+                 <li><b><a href="https://www.facebook.com">Faccebook</a></b></li>
+                 <li><b><a href="https://www.youtube.com">Youtibe</a></b></li>
+                 <li><b><a href="https://www.tiktok.com">Tik Tok</a></b></li>
+             </ul>
+ 
+                     <br/>
+                 </div>
             </div>
         </Layout>
     )
